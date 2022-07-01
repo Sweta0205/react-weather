@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt',sans-serif;
+}
+.app
+{
+background-image:url('./weather.jpg') ;
+background-size: cover;
+background-position: bottom;
+transition: 0.4,ease-out;
+}
+
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0,2),rgba(0,0,0,0.75));
+  padding:25px; 
+}
+.search-box
+{
+  width: 100%;
+}
+.weather-box
+{
+  text-align: center;
+}
+.temp
+{
+  position: relative;
+  display: inline-block;
+  margin:20px auto;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 16px;
+  padding:15px 25px;
+  color:blueviolet;
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+
+}
